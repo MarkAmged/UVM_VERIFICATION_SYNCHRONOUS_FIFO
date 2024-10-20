@@ -1,0 +1,281 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/DUT/SVA
+=== Design Unit: work.assertions
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      31        31         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/SVA/overflow_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(12)
+                                                        0          1
+/top/DUT/SVA/underflow_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(13)
+                                                        0          1
+/top/DUT/SVA/wr_ack_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(14)
+                                                        0          1
+/top/DUT/SVA/overflow_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(19)
+                                                        0          1
+/top/DUT/SVA/underflow_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(20)
+                                                        0          1
+/top/DUT/SVA/wr_ack_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(21)
+                                                        0          1
+/top/DUT/SVA/full_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(28)
+                                                        0          1
+/top/DUT/SVA/empty_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(29)
+                                                        0          1
+/top/DUT/SVA/almostfull_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(30)
+                                                        0          1
+/top/DUT/SVA/almostempty_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(31)
+                                                        0          1
+/top/DUT/SVA/full_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(37)
+                                                        0          1
+/top/DUT/SVA/empty_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(38)
+                                                        0          1
+/top/DUT/SVA/almostfull_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(39)
+                                                        0          1
+/top/DUT/SVA/almostempty_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(40)
+                                                        0          1
+/top/DUT/SVA/rd_count_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(49)
+                                                        0          1
+/top/DUT/SVA/wr_count_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(50)
+                                                        0          1
+/top/DUT/SVA/rd_wr_count_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(51)
+                                                        0          1
+/top/DUT/SVA/rd_ptr_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(59)
+                                                        0          1
+/top/DUT/SVA/wr_ptr_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(60)
+                                                        0          1
+/top/DUT/SVA/almostfull_full_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(69)
+                                                        0          1
+/top/DUT/SVA/almostempty_empty_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(72)
+                                                        0          1
+/top/DUT/SVA/rst_count_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(80)
+                                                        0          1
+/top/DUT/SVA/rst_rd_ptr_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(81)
+                                                        0          1
+/top/DUT/SVA/rst_wr_ptr_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(82)
+                                                        0          1
+/top/DUT/SVA/rst_full_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(83)
+                                                        0          1
+/top/DUT/SVA/rst_empty_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(84)
+                                                        0          1
+/top/DUT/SVA/rst_almostfull_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(85)
+                                                        0          1
+/top/DUT/SVA/rst_almostempty_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(86)
+                                                        0          1
+/top/DUT/SVA/rst_overflow_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(88)
+                                                        0          1
+/top/DUT/SVA/rst_underflow_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(89)
+                                                        0          1
+/top/DUT/SVA/rst_wr_ack_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(90)
+                                                        0          1
+
+=================================================================================
+=== Instance: /fifo_read_write_sequence_pkg
+=== Design Unit: work.fifo_read_write_sequence_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/fifo_read_write_sequence_pkg/fifo_read_write_sequence/body/#ublk#25337815#16/immed__19
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/read_write_sequence.sv(19)
+                                                        0          1
+
+=================================================================================
+=== Instance: /fifo_write_sequence_pkg
+=== Design Unit: work.fifo_write_sequence_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/fifo_write_sequence_pkg/fifo_write_sequence/body/#ublk#75765463#16/immed__19
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/write_sequence.sv(19)
+                                                        0          1
+
+=================================================================================
+=== Instance: /fifo_read_sequence_pkg
+=== Design Unit: work.fifo_read_sequence_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/fifo_read_sequence_pkg/fifo_read_sequence/body/#ublk#124360423#16/immed__19
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/read_sequence.sv(19)
+                                                        0          1
+
+=================================================================================
+=== Instance: /fifo_scoreboard_pkg
+=== Design Unit: work.fifo_scoreboard_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/fifo_scoreboard_pkg/fifo_scoreboard/check_data/outputs_check_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/scoreboard.sv(53)
+                                                        0          1
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/SVA/overflow_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(12)
+                                                        0          1
+/top/DUT/SVA/underflow_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(13)
+                                                        0          1
+/top/DUT/SVA/wr_ack_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(14)
+                                                        0          1
+/top/DUT/SVA/overflow_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(19)
+                                                        0          1
+/top/DUT/SVA/underflow_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(20)
+                                                        0          1
+/top/DUT/SVA/wr_ack_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(21)
+                                                        0          1
+/top/DUT/SVA/full_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(28)
+                                                        0          1
+/top/DUT/SVA/empty_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(29)
+                                                        0          1
+/top/DUT/SVA/almostfull_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(30)
+                                                        0          1
+/top/DUT/SVA/almostempty_assert_1
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(31)
+                                                        0          1
+/top/DUT/SVA/full_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(37)
+                                                        0          1
+/top/DUT/SVA/empty_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(38)
+                                                        0          1
+/top/DUT/SVA/almostfull_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(39)
+                                                        0          1
+/top/DUT/SVA/almostempty_assert_2
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(40)
+                                                        0          1
+/top/DUT/SVA/rd_count_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(49)
+                                                        0          1
+/top/DUT/SVA/wr_count_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(50)
+                                                        0          1
+/top/DUT/SVA/rd_wr_count_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(51)
+                                                        0          1
+/top/DUT/SVA/rd_ptr_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(59)
+                                                        0          1
+/top/DUT/SVA/wr_ptr_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(60)
+                                                        0          1
+/top/DUT/SVA/almostfull_full_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(69)
+                                                        0          1
+/top/DUT/SVA/almostempty_empty_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(72)
+                                                        0          1
+/top/DUT/SVA/rst_count_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(80)
+                                                        0          1
+/top/DUT/SVA/rst_rd_ptr_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(81)
+                                                        0          1
+/top/DUT/SVA/rst_wr_ptr_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(82)
+                                                        0          1
+/top/DUT/SVA/rst_full_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(83)
+                                                        0          1
+/top/DUT/SVA/rst_empty_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(84)
+                                                        0          1
+/top/DUT/SVA/rst_almostfull_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(85)
+                                                        0          1
+/top/DUT/SVA/rst_almostempty_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(86)
+                                                        0          1
+/top/DUT/SVA/rst_overflow_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(88)
+                                                        0          1
+/top/DUT/SVA/rst_underflow_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(89)
+                                                        0          1
+/top/DUT/SVA/rst_wr_ack_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/assertions.sv(90)
+                                                        0          1
+/fifo_read_write_sequence_pkg/fifo_read_write_sequence/body/#ublk#25337815#16/immed__19
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/read_write_sequence.sv(19)
+                                                        0          1
+/fifo_write_sequence_pkg/fifo_write_sequence/body/#ublk#75765463#16/immed__19
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/write_sequence.sv(19)
+                                                        0          1
+/fifo_read_sequence_pkg/fifo_read_sequence/body/#ublk#124360423#16/immed__19
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/read_sequence.sv(19)
+                                                        0          1
+/fifo_scoreboard_pkg/fifo_scoreboard/check_data/outputs_check_assert
+                     D:/Digital_Verfication_Using_SV&UVM/Mark_Amgad_UVM_FIFO_Project/scoreboard.sv(53)
+                                                        0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+
